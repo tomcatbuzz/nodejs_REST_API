@@ -1,0 +1,25 @@
+{
+  "name": "node_rest_api",
+  "version": "1.0.0",
+  "description": "Node.js RESTful API",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "RESTful",
+    "API"
+  ],
+  "author": "Anthony Buzzelli",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.12",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
